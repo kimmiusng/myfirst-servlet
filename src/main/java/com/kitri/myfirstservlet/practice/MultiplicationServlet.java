@@ -11,19 +11,20 @@ import java.io.PrintWriter;
 @WebServlet(name = "MultiplicationServlet", value = "/multiplication-string-servlet")
 public class MultiplicationServlet extends HttpServlet {
 
+
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/plain;charset=UTF-8");
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        resp.setContentType("text/palin;charset=UTF-8");
         PrintWriter out = resp.getWriter();
 
+
         int num = Integer.parseInt(req.getParameter("num"));
-        out.println(num + " 단\n");
+        out.println("<p>" + num + " 단\n</p>");
+        out.println();
 
         for (int i = 1; i <= 9; i++){
-            out.println();
-            out.println(num + " * " + i + " = " + (num*i));
+            System.out.println();
+            out.println("<p>" + num + " * " + i + " = " + (num * i) + "</p>");
         }
     }
 }
-
-//get으로 다시 해보기!

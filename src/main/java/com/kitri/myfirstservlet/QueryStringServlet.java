@@ -19,11 +19,11 @@ public class QueryStringServlet extends HttpServlet {
         resp.setContentType("text/plain;charset=UTF-8");
         PrintWriter out = resp.getWriter();
 
-        System.out.println("GET요청\n");
+        System.out.println("GET 요청\n");
         out.println(req.getParameter("name")  + "\n");
         out.println(req.getParameter("city")  + "\n");
 
-//        out.println("queryString : " + req.getQueryString());
+
     }
 
     @Override
@@ -36,6 +36,7 @@ public class QueryStringServlet extends HttpServlet {
         System.out.println("POST요청\n");
         out.println(req.getParameter("name")  + "\n");
         out.println(req.getParameter("city")  + "\n");
+
 
     }
 }

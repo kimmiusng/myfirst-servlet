@@ -5,8 +5,7 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "서블릿 Basic Study" %>
-</h1>
+<h1><%= "서블릿 Basic Study" %></h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
 <br>
@@ -16,11 +15,11 @@
 <br>
 <a href="request-info-servlet">요청 정보</a>
 <br>
-<a href="response-intfo-servlet">응답 정보</a>
-<br>
 <a href="memberInfo.html">쿼리 스트링</a>
 <br>
-<a href="practice/multiplication.html">실습 1: 구구단</a>
-</body>
+<a href="/practice/multiplication.html">실습 1 : 구구단</a>
+<br>
+<a href="/practice/calculator.html">실습 2 : 계산기</a>
 
+</body>
 </html>

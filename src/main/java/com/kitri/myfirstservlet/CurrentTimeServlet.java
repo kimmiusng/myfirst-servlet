@@ -6,6 +6,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 import static java.time.LocalTime.now;
 //1. 클래스 생성
@@ -19,9 +21,9 @@ public class CurrentTimeServlet extends HttpServlet {
     private String message;
 
     public void init(){
-        message = "" + now();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+        message = "" + simpleDateFormat.format(Calendar.getInstance().getTime());
     }
-
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");
