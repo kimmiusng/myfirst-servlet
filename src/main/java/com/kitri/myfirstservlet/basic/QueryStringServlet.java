@@ -1,4 +1,4 @@
-package com.kitri.myfirstservlet;
+package com.kitri.myfirstservlet.basic;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -20,8 +20,8 @@ public class QueryStringServlet extends HttpServlet {
         PrintWriter out = resp.getWriter();
 
         System.out.println("GET 요청\n");
-        out.println(req.getParameter("name")  + "\n");
-        out.println(req.getParameter("city")  + "\n");
+        out.println(req.getParameter("name1")  + "\n");
+        out.println(req.getParameter("city1")  + "\n");
 
 
     }
@@ -34,8 +34,8 @@ public class QueryStringServlet extends HttpServlet {
         PrintWriter out = resp.getWriter();
 
         System.out.println("POST요청\n");
-        out.println(req.getParameter("name")  + "\n");
-        out.println(req.getParameter("city")  + "\n");
+        out.println(req.getParameter("name2")  + "\n");
+        out.println(req.getParameter("city2")  + "\n");
 
 
     }

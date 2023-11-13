@@ -1,4 +1,4 @@
-package com.kitri.myfirstservlet;
+package com.kitri.myfirstservlet.basic;
 
 import java.io.*;
 import javax.servlet.http.*;
