@@ -22,19 +22,19 @@ public class CalculatorServlet extends HttpServlet {
 
         switch (op){
             case "plus":
-                out.println("<p>" + val1 + " + " + val2 + " = " + (val1+val2) + "</p>");
+                out.println(val1 + " + " + val2 + " = " + (val1+val2));
                 break;
             case "minus":
-                out.println("<p>" + val1 + " - " + val2 + " = " + (val1-val2) + "</p>");
+                out.println(val1 + " - " + val2 + " = " + (val1-val2));
                 break;
             case "mul":
-                out.println("<p>" + val1 + " * " + val2 + " = " + (val1*val2) + "</p>");
+                out.println(val1 + " * " + val2 + " = " + (val1*val2));
                 break;
             case "div":
-                out.println("<p>" + val1 + " / " + val2 + " = " + (val1/val2) + "</p>");
+                out.println(val1 + " / " + val2 + " = " + (val1/val2));
                 break;
             case "mod":
-                out.println("<p>" + val1 + " % " + val2 + " = " + (val1%val2) + "</p>");
+                out.println(val1 + " % " + val2 + " = " + (val1%val2));
                 break;
         }
     }
