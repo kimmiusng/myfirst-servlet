@@ -32,6 +32,7 @@
 <a href="site.html">상태 정보 유지 기술 (5) : 요청 단위 활용</a>
 <br>
 <a href="dispatcher1">포워드</a>
+<br>
+<a href="practice/join.html">실습 3 : 회원가입 폼 페이지</a>
 
-</body>
 </html>
