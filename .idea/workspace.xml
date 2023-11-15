@@ -9,27 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49d081c3-2259-4485-9196-86ee3ddfa8fe" name="Changes" comment="계산기 실습 추가">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/CookieReadServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/CookieServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/DispatcherServlet1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/DispatcherServlet2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/RequestServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/StateStoreServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/UserVisitServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/site.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/user-visit.html" afterDir="false" />
+    <list default="true" id="49d081c3-2259-4485-9196-86ee3ddfa8fe" name="Changes" comment="세션 로그인 로그아웃 작업 진행 중">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/CurrentTimeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/basic/CurrentTimeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/basic/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/KoreanServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/basic/KoreanServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/QueryStringServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/basic/QueryStringServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/RequestInfoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/basic/RequestInfoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/MultiplicationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/MultiplicationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/JoinServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/JoinServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/LoginOutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/LoginOutServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/memberInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/memberInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/practice/multiplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/practice/multi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/practice/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/practice/join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/practice/loginOut.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/practice/loginOut.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +33,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -73,7 +65,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;kimmisung&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -192,6 +184,7 @@
       <workItem from="1699516073336" duration="600000" />
       <workItem from="1699516691545" duration="2514000" />
       <workItem from="1699574628930" duration="27207000" />
+      <workItem from="1700006566812" duration="16411000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -225,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699835140941</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="세션 로그인 로그아웃 작업 진행 중">
+      <option name="closed" value="true" />
+      <created>1699959996609</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699959996609</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +246,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="계산기 실습 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="계산기 실습 추가" />
+    <MESSAGE value="세션 로그인 로그아웃 작업 진행 중" />
+    <option name="LAST_COMMIT_MESSAGE" value="세션 로그인 로그아웃 작업 진행 중" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

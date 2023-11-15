@@ -19,7 +19,7 @@ public class JoinServlet extends HttpServlet {
 
     @Override
     public void init(ServletConfig config) throws ServletException {
-       sc = config.getServletContext(); //저장 객체 단위
+        sc = config.getServletContext(); //저장 객체 단위
         //sc.setAttribute(id,id);
         //sc.getAttribute(id);
     }
@@ -36,11 +36,10 @@ public class JoinServlet extends HttpServlet {
         String pw2 = req.getParameter("pw2");
 
 
-
-
-        if (sc.getAttribute(id) == null) {
+        if (!(user.containsKey(id))) {
             if (pw1.equals(pw2)) {
-                sc.setAttribute(id, new User(id, pw1));
+                user.put(id, new User(id, pw1));
+                sc.setAttribute("user", user);
                 out.println("회원가입에 성공하셨습니다.");
                 out.println("<hr><a href=practice/loginOut.html>로그인 화면으로 바로가기</a></hr>");
             } else {
@@ -50,6 +49,7 @@ public class JoinServlet extends HttpServlet {
         } else {
             out.println("이미 존재하는 아이디입니다.");
             out.println("<hr><a href=practice/join.html>회원가입으로 돌아가기</a></hr>");
+
         }
     }
 }

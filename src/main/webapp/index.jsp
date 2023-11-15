@@ -35,4 +35,5 @@
 <br>
 <a href="practice/join.html">실습 3 : 회원가입 폼 페이지</a>
 
+</body>
 </html>
